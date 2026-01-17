@@ -18,6 +18,22 @@
           </config>
         </ContributedStateBase>
       </target>
+      <target name="WSL2" type="wsl" uuid="4e937cdc-d6b9-44bb-ba22-766f19b4645e">
+        <config>
+          <option name="distributionMsId" value="Ubuntu-24.04" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="$PROJECT_DIR$/../../../../usr/lib/jvm/java-1.17.0-openjdk-amd64" />
+          </config>
+        </ContributedStateBase>
+        <ContributedStateBase type="MavenRuntime">
+          <config>
+            <option name="homePath" value="C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.1\plugins\maven\lib\maven3" />
+            <option name="versionString" value="3.9.11" />
+          </config>
+        </ContributedStateBase>
+      </target>
     </targets>
   </component>
 </project>
